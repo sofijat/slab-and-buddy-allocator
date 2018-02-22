@@ -1,0 +1,49 @@
+﻿Build started 16.6.2017. 10.42.10.
+     1>Project "c:\Users\Ja\documents\visual studio 2015\Projects\sofix\sofix\sofix.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt buddy.cpp main.cpp slab.cpp test.cpp
+         test.cpp
+     1>c:\users\ja\documents\visual studio 2015\projects\sofix\sofix\slab.h(12): warning C4091: 'typedef ': ignored on left of 'slab_t' when no variable is declared
+         slab.cpp
+     1>c:\users\ja\documents\visual studio 2015\projects\sofix\sofix\slab.h(12): warning C4091: 'typedef ': ignored on left of 'slab_t' when no variable is declared
+     1>c:\users\ja\documents\visual studio 2015\projects\sofix\sofix\slab.cpp(14): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\ja\documents\visual studio 2015\projects\sofix\sofix\slab.cpp(100): warning C4244: '=': conversion from 'double' to 'unsigned int', possible loss of data
+     1>c:\users\ja\documents\visual studio 2015\projects\sofix\sofix\slab.cpp(129): warning C4244: '=': conversion from 'double' to 'size_t', possible loss of data
+     1>c:\users\ja\documents\visual studio 2015\projects\sofix\sofix\slab.cpp(148): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+     1>c:\users\ja\documents\visual studio 2015\projects\sofix\sofix\slab.cpp(177): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\ja\documents\visual studio 2015\projects\sofix\sofix\slab.cpp(320): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdlib.h(1316): note: see declaration of 'itoa'
+     1>c:\users\ja\documents\visual studio 2015\projects\sofix\sofix\slab.cpp(321): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(90): note: see declaration of 'strcat'
+     1>c:\users\ja\documents\visual studio 2015\projects\sofix\sofix\slab.cpp(346): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\ja\documents\visual studio 2015\projects\sofix\sofix\slab.cpp(377): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+         main.cpp
+     1>c:\users\ja\documents\visual studio 2015\projects\sofix\sofix\slab.h(12): warning C4091: 'typedef ': ignored on left of 'slab_t' when no variable is declared
+     1>c:\users\ja\documents\visual studio 2015\projects\sofix\sofix\main.cpp(21): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\ja\documents\visual studio 2015\projects\sofix\sofix\main.cpp(38): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+         buddy.cpp
+     1>c:\users\ja\documents\visual studio 2015\projects\sofix\sofix\buddy.cpp(11): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ja\documents\visual studio 2015\projects\sofix\sofix\buddy.cpp(50): warning C4018: '>=': signed/unsigned mismatch
+     1>c:\users\ja\documents\visual studio 2015\projects\sofix\sofix\buddy.cpp(61): warning C4018: '>=': signed/unsigned mismatch
+     1>c:\users\ja\documents\visual studio 2015\projects\sofix\sofix\buddy.cpp(72): warning C4018: '>=': signed/unsigned mismatch
+     1>c:\users\ja\documents\visual studio 2015\projects\sofix\sofix\buddy.cpp(77): warning C4800: 'unsigned long': forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\ja\documents\visual studio 2015\projects\sofix\sofix\buddy.cpp(85): warning C4018: '>': signed/unsigned mismatch
+     1>c:\users\ja\documents\visual studio 2015\projects\sofix\sofix\buddy.cpp(93): warning C4018: '<=': signed/unsigned mismatch
+     1>c:\users\ja\documents\visual studio 2015\projects\sofix\sofix\buddy.cpp(102): warning C4018: '>': signed/unsigned mismatch
+     1>c:\users\ja\documents\visual studio 2015\projects\sofix\sofix\buddy.cpp(117): warning C4244: 'initializing': conversion from 'double' to 'unsigned long', possible loss of data
+     1>c:\users\ja\documents\visual studio 2015\projects\sofix\sofix\buddy.cpp(138): warning C4244: 'initializing': conversion from 'double' to 'unsigned long', possible loss of data
+         Generating Code...
+     1>c:\users\ja\documents\visual studio 2015\projects\sofix\sofix\slab.cpp(109): warning C4715: 'kmem_cache_estimate': not all control paths return a value
+     1>c:\users\ja\documents\visual studio 2015\projects\sofix\sofix\slab.cpp(223): warning C4715: 'kmem_cache_create': not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\ja\documents\visual studio 2015\Projects\sofix\Debug\sofix.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"c:\users\ja\documents\visual studio 2015\Projects\sofix\Debug\sofix.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\ja\documents\visual studio 2015\Projects\sofix\Debug\sofix.lib" /MACHINE:X86 Debug\buddy.obj
+         Debug\main.obj
+         Debug\slab.obj
+         Debug\test.obj
+         sofix.vcxproj -> c:\users\ja\documents\visual studio 2015\Projects\sofix\Debug\sofix.exe
+     1>Done Building Project "c:\Users\Ja\documents\visual studio 2015\Projects\sofix\sofix\sofix.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.72
